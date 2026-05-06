@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GeoWind Paper 1</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#f4f6fb;
+color:#111;
+line-height:1.7;
+}
+
+.hero{
+padding:100px 20px 80px;
+text-align:center;
+background:linear-gradient(to bottom,#eef2fb,#f7f9fd);
+}
+
+.tag{
+font-size:13px;
+letter-spacing:2px;
+font-weight:bold;
+color:#9b6b12;
+margin-bottom:20px;
+}
+
+h1{
+font-size:56px;
+line-height:1.1;
+max-width:1100px;
+margin:auto;
+font-weight:800;
+}
+
+.subtitle{
+margin-top:28px;
+font-size:21px;
+color:#555;
+max-width:900px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.buttons{
+margin-top:45px;
+display:flex;
+justify-content:center;
+gap:18px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:16px 34px;
+border-radius:999px;
+text-decoration:none;
+font-weight:bold;
+transition:0.2s;
+}
+
+.primary{
+background:#355db2;
+color:white;
+}
+
+.primary:hover{
+background:#26458a;
+}
+
+.secondary{
+background:white;
+border:2px solid #d6deef;
+color:#355db2;
+}
+
+.secondary:hover{
+background:#edf2ff;
+}
+
+.section{
+max-width:1100px;
+margin:70px auto;
+padding:0 20px;
+}
+
+.card{
+background:white;
+border-radius:28px;
+padding:45px;
+box-shadow:0 6px 25px rgba(0,0,0,0.05);
+}
+
+.card h2{
+font-size:34px;
+margin-bottom:24px;
+}
+
+.card p{
+font-size:18px;
+margin-bottom:22px;
+color:#444;
+}
+
+.grid{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.box{
+background:#f7f9fd;
+padding:24px;
+border-radius:20px;
+}
+
+.box h3{
+font-size:14px;
+color:#666;
+margin-bottom:8px;
+}
+
+.box p{
+margin:0;
+font-size:18px;
+font-weight:700;
+color:#222;
+}
+
+footer{
+padding:60px 20px 90px;
+text-align:center;
+color:#777;
+font-size:14px;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:38px;
+}
+
+.subtitle{
+font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="tag">
+GEOWIND RESEARCH PAPER · PAPER 1
+</div>
+
+<h1>
+An Icosahedral Wing Geometry Framework for Small Vertical-Axis Wind Turbines
+</h1>
+
+<p class="subtitle">
+Golden-ratio-based blade layout and torque balance analysis
+for GeoWind vertical-axis wind turbine systems.
+</p>
+
+<div class="buttons">
+
+<a class="btn primary"
+href="Geowind_paper1.pdf"
+download>
+📄 Download PDF
+</a>
+
+<a class="btn secondary"
+href="https://doi.org/10.5281/zenodo.19640906"
+target="_blank">
+📚 View on Zenodo
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="card">
+
+<h2>Abstract</h2>
+
+<p>
+This paper proposes a novel blade arrangement framework for
+small vertical-axis wind turbines (VAWTs) derived from the
+geometric properties of the regular icosahedron.
+</p>
+
+<p>
+The work formalizes a ten-face non-edge-sharing triangular wing arrangement
+under a pole-anchored geometric framework and demonstrates
+a regular decagonal equatorial balance relationship.
+</p>
+
+<p>
+The resulting framework provides a reproducible CAD-ready
+design methodology for future aerodynamic and structural studies.
+</p>
+
+<div class="grid">
+
+<div class="box">
+<h3>Author</h3>
+<p>Young June Jeon</p>
+</div>
+
+<div class="box">
+<h3>Organization</h3>
+<p>GeoWind</p>
+</div>
+
+<div class="box">
+<h3>DOI</h3>
+<p>10.5281/zenodo.19640906</p>
+</div>
+
+<div class="box">
+<h3>Category</h3>
+<p>VAWT Geometry</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 GeoWind Research · GitHub Pages
+</footer>
+
+</body>
+</html>
